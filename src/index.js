@@ -2,11 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import HomePage from './HomePage'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* Here App component is used for SignIn Page And HomePage Component is used for Dashboard Page so if you want to see the dashboard page 
+    please remove comment sign from HomePage component and do comment App component */}
+    <App /> 
+    {/* <HomePage /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );

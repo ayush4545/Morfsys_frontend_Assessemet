@@ -1,0 +1,27 @@
+.heading {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heading > p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #192451;
+}
+.icons {
+  color: #a2a2a2;
+}
+
+.icon2 {
+  margin-left: 10px;
+}
+
+.iconPlus:hover {
+  cursor: pointer;
+}
+
+.icon2:hover {
+  cursor: pointer;
+}

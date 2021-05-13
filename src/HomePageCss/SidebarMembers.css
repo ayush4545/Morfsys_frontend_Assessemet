@@ -1,0 +1,23 @@
+.sidebarMembers{
+    display:flex;
+    align-items: center;
+    margin-left:10px;
+    margin-top:15px;
+}
+
+.sidebarMembers:hover {
+    cursor:pointer;
+    background-color: rgb(224, 223, 223);
+    color:rgb(53, 46, 46);
+}
+
+.sidebarMembers_title{
+    margin-left:10px;
+
+}
+.sidebarMembers_title >p{
+    font-size:12px;
+    font-weight: 500;
+}
+
+

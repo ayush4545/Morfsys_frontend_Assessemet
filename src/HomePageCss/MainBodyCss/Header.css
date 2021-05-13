@@ -1,0 +1,46 @@
+.main_header {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  box-shadow: 4px 3px 1px rgba(0, 0, 0, 0.2);
+}
+
+.main_header_logo {
+  margin-left: 30px;
+}
+
+.main_header_title {
+  margin-left: 30px;
+}
+
+.main_header_title > h3 {
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.main_header_tabs {
+  display: flex;
+  justify-content: space-evenly;
+  /* margin-left:px; */
+  margin-top: 5px;
+}
+
+.main_header_tabs > a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 15px;
+  color: #a2a2a2;
+}
+
+.visited,
+.visited1 {
+  margin-left: 50px;
+}
+
+.main_header_tabs > .visited1 {
+  color: black;
+  border-bottom: 3px solid black;
+  padding-bottom: 2px;
+}

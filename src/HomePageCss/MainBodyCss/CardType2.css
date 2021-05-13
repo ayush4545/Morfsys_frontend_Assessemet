@@ -1,0 +1,36 @@
+.cardType2 {
+  background-color: white;
+  width: 300px;
+  height: 100px;
+  border-radius: 5px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardImage {
+  width: 50px;
+  height: 45px;
+  object-fit: contain;
+  flex: 0.2;
+  margin-left: 15px;
+}
+
+.cardTitle {
+  margin-left: 20px;
+  flex: 0.8;
+}
+
+.cardTitle > h4 {
+  font-weight: 500;
+  font-size: 19px;
+}
+
+.cardTitle > p {
+  color: #a2a2a2;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  margin-top: 5px;
+}

@@ -1,0 +1,161 @@
+.SignIn_header{
+    display:flex;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+}
+
+.SignIn_header > a >img{
+    width:300px;
+    object-fit: contain;
+    margin-left:150px;
+    margin-top:15px;
+}
+
+.SignIn_header > p{
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 100px;
+    color:#192451;
+}
+
+.SignIn_body{
+    display:flex;
+    text-align: center;
+}
+
+.SignIn_body_Left{
+    flex:0.5;
+    margin-top: 80px;
+}
+
+.SignIn_body_Left > h1{
+    letter-spacing: 0;
+    color: #192451;
+    font-size: 34px;
+    font-weight: 500;
+    text-align: left;
+    margin-left:150px;
+}
+
+.SignIn_body_Left > p{
+    color:#a2a2a6;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: left;
+    margin-left:150px;
+    margin-top:15px;
+}
+
+.SignIn_body_left_form{
+    text-align:left;
+    margin-left: 150px;
+    margin-top: 1.5rem !important;
+}
+
+label{
+    color: #192451;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+
+
+.SignIn_body_Right{
+    flex:0.5;
+    align-items: center;
+    text-align:center;
+}
+
+.SignIn_body_Right > img{
+    width:70%;
+    object-fit: contain;
+    margin-left: -180px;
+    margin-top:80px;
+}
+
+.nameInput{
+    border:none;
+    border-bottom: 1px solid lightgray;
+    width:80%;
+    font-size: 20px;
+    margin-top:20px;
+    padding-bottom: 10px;
+
+}
+
+.nameInput:focus{
+    outline: none;
+}
+
+.emailInput{
+    border:none;
+    border-bottom: 1px solid lightgray;
+    width:80%;
+    font-size: 20px;
+    margin-top:20px;
+    padding-bottom: 10px;
+
+}
+
+.emailField{
+    margin-top:30px;
+}
+.emailInput:focus{
+    outline: none;
+}
+
+.passwordField{
+    margin-top:30px;
+    align-items: center;
+}
+
+.mainpasswordfield{
+    display: flex;
+    align-items: center;
+}
+
+
+.passwordInput{
+    border:none;
+    border-bottom: 1px solid lightgray;
+    width:80%;
+    font-size: 20px;
+    margin-top:20px;
+    padding-bottom: 10px;
+
+}
+
+.eyelogo{
+    color:#192451!important;
+    cursor: pointer;
+    margin-left: -30px;
+    margin-top:10px;
+}
+
+.pwdDescription{
+    font-size: 12px;
+    color:#a2a2a6;
+    margin-top:5px;
+}
+
+.passwordInput:focus{
+    outline: none;
+}
+
+.CreateBtn{
+    text-transform: uppercase!important;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    color: #fff;
+    border-color: #007bff;
+    background-color: #192451!important;
+    padding: 10px 40px!important;
+    letter-spacing: 1.6px;
+    border-radius: 4px!important;
+    margin-top:35px;
+}
+
+

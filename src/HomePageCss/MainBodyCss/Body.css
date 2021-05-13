@@ -1,0 +1,22 @@
+.right_side_body {
+  height: 100%;
+  background-color: rgb(235, 232, 232);
+  display: flex;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.column1 {
+  flex: 0.25;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.lastColumn {
+  width: 290px;
+  height: 90%;
+  background-color: rgb(223, 219, 219);
+  border-radius: 5px;
+  padding-top: 7px;
+  margin-top: 10px;
+}

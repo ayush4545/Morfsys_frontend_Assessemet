@@ -1,0 +1,89 @@
+.card1{
+    background-color: white;
+    width:300px;
+    height:200px;
+    border-radius:5px;
+    padding-top:7px;
+    margin-top:10px;
+}
+
+.card1 > h4{
+    font-weight:500;
+    font-size:18px;
+    margin-left:10px;
+}
+
+.levelDiv{
+    color:white;
+    /* background-color: Red; */
+    margin-top:10px;
+    margin-left:10px;
+    padding:3px;
+    text-align: center;
+    border-radius:50px;
+    object-fit: cover;
+    font-size: 14px;
+}
+
+.High{
+    width:50px;
+    background-color: rgb(245, 94, 94);
+}
+
+.Medium{
+    width:75px;
+    background-color: rgb(252, 101, 47);
+}
+
+
+
+.card1_image{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+    margin-right:50px;
+    margin-top:20px;
+}
+
+.card1_image_1{
+    display:flex;
+    align-items:center;
+}
+
+.card_icon{
+    size:5px;
+    color:#a2a2a2;
+}
+
+.card1_image_1 > p{
+    color:#a2a2a2;
+    margin-left:5px;
+}
+
+.card1_image_text_1{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+    margin-right:30px;
+    margin-top:30px;
+}
+
+.card1_image_text_1 >p{
+    font-weight:500;
+    color:#a2a2a2;
+}
+
+.avatar1{
+    border: 2px dashed #a2a2a2;
+    border-radius: 50%;
+    padding:7px;
+    font-size:25px;
+    color:#a2a2a2;
+    margin-left: 5px;
+}
+
+.avatar1:hover{
+    cursor: pointer;
+}
